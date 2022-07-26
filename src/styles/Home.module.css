@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    width: 65vw;
+    background-color: #E9F0F8;
+}
+
+.internalContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vw 0 2vw;
+}
+
+.internalContainer > h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;    
+    margin: 0 auto 0 0;
+    color: #36414D;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    width: 61vw;
+    border-radius: 0.8rem;
+    margin: 4vh auto 0 auto;
+    background: #FFFFFF;
+}
+
+.bannerImgContainer {
+    display: flex;
+    flex-direction: row;
+    background: #151C31;
+    height: 20vh;
+    /* width: 22vw; */
+    width: 50%;
+    margin: auto 0 auto 1vw;
+    border-radius: 0.8rem;
+}
+
+.bannerDate {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto auto;
+    height: 20vh;
+}
+
+.bannerDate > h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: auto auto 0vh auto;
+    font-size: 1rem;
+}
+.bannerDate > h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 auto 2vh auto;
+    font-size: 2rem;
+}
+.bannerDate > p {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FF7676;
+    font-size: 0.7rem;
+    margin: 0 auto 2vh auto;
+}
+
+.bannerImgContainer > img {
+    margin: auto 0 auto auto;
+    height: 20vh;
+    width: auto;
+    border-bottom-right-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+
+.bannerInfo {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto 2vw;
+    height: 20vh;
+    width: 36vw;
+    margin: auto 1vw auto 1vw;
+}
+
+.bannerInfo > p {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #7580A0;
+    font-size: 0.8rem;
+    margin: 0 auto 0 0;
+}
+
+.bannerInfo > h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #151C31;
+    font-size: 1.2rem;
+    margin: 1vh auto 0 0;
+}
+
+.bannerInfoFooter {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 0 0;
+}
+
+.bannerInfoFooterSign {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerInfoFooterSign > p {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #7580A0;
+    font-size: 0.7rem;
+    margin: 1vh auto 0 0;
+}
+
+.bannerInfoFooterSign > h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #151C31;
+    font-size: 1rem;
+    margin: 0.5vh auto 0 0;
+}
+
+.bannerInfoFooterBtn {
+    background-color: #2433FF;
+    margin: auto 0 0 auto;
+    display: flex;
+    border-radius: 0.2rem;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.bannerInfoFooterBtn > p {
+    font-family: Poppins;
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: auto;
+}
+

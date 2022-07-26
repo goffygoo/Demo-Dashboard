@@ -7,7 +7,127 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* EVENTS TABLE */
+
+.eventsTable {
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  width: 61vw;
+  border-radius: 0.4rem;
+  margin: 4vh auto 0 auto;
+  background: #fff;
 }
+
+.eventsTableHead {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 1vw 0 1vw;
+}
+
+.eventsTableHead > h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #01081E;
+  font-size: 1.1rem;
+  margin: 0 auto 0 0;
+}
+
+.eventsTableHead > p {
+  font-family: Poppins;
+  font-weight: 400;
+  color: #3D7EFA;
+  font-size: 0.8rem;
+  margin: auto 0 0 0;
+  cursor: pointer;
+}
+.eventsTableHead > p:hover {text-decoration: underline;}
+
+.eventsTableContent {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 1vw 2vh 1vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.eventsTableContent::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+.eventsTableContent::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.5rem;
+}
+
+.eventsTableTitle {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 1vw 0 1vw;
+}
+
+.eventsTableTitle > div > p {
+  font-family: Poppins;
+  font-weight: 400;
+  color: #7580A0;
+  font-size: 0.9rem;
+  margin: 0.7vh 0;
+}
+
+.eventsTableTitle > div:nth-child(1) {
+  margin: 0 0.5vw 0 0;
+  width: 20vw;
+} 
+.eventsTableTitle > div:nth-child(2) {
+  margin: 0 0.5vw 0 0.5vw;
+  width: 15vw;
+} 
+.eventsTableTitle > div:nth-child(3) {
+  margin: 0 0.5vw 0 0.5vw;
+  width: 10vw;
+}
+.eventsTableTitle > div:nth-child(4) {
+  margin: 0 0 0 0.5vw;
+  width: 10vw;
+} 
+
+.eventsTableTitleHr {
+  height: 1px;
+  width: 59vw;
+  margin: 1vh 1vw 1vh 1vw;
+  background-color: #7580A0;
+}
+
+.eventsTableRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5vh 0;
+  cursor: pointer;
+}
+
+.eventsTableRow > div > p {
+  font-family: Poppins;
+  font-weight: 400;
+  color: #01081E;
+  font-size: 0.9rem;
+  margin: 0.7vh 0;
+}
+
+.eventsTableRow > div:nth-child(1) {
+  margin: 0 0.5vw 0 0;
+  width: 20vw;
+} 
+
+.eventsTableRow > div:nth-child(2) {
+  margin: 0 0.5vw 0 0.5vw;
+  width: 15vw;
+} 
+.eventsTableRow > div:nth-child(3) {
+  margin: 0 0.5vw 0 0.5vw;
+  width: 10vw;
+}
+.eventsTableRow > div:nth-child(4) {
+  margin: 0 0 0 0.5vw;
+  width: 10vw;
+} 

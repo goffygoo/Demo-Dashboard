@@ -1,0 +1,295 @@
+.container {
+    display: flex;
+    width: 65vw;
+    background-color: #E9F0F8;
+}
+
+input {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.7rem;    
+    margin: 0.5vh 0;
+}
+
+.internalContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vw 0 2vw;
+}
+
+.internalContainer > h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;    
+    margin: 0 auto 0 0;
+    color: #36414D;
+}
+
+.containerRow1 {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 0 0;
+    width: 61vw;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 42vw;
+    border-radius: 0.6rem;
+    background-color: #FFFFFF;
+}
+
+.basicInfoHead {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vh 1vw 0 1vw;
+}
+
+.basicInfoHead > h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.1rem;    
+    margin: 0;
+    color: #01081E;
+}
+
+.basicInfoHead > img {
+    height: 3vh;
+    width: auto;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+.basicInfoContent {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vh 1vw 0 1vw;   
+}
+
+.basicInfoContent > img {
+    height: auto;
+    width: 8vw;
+    border-radius: 100vh;
+    margin: 0 0 auto 0;
+}
+
+.basicInfoContentText {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 31vw;
+    margin: auto 0 auto 1vw;
+}
+
+.basicInfoContentTextRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 auto 0;
+}
+
+.basicInfoContentTextCol {
+    display: flex;
+    flex-direction: column;
+}
+.basicInfoContentTextCol:first-child {
+    width: 12vw;
+    margin: 0 0 0 3vw;
+}
+.basicInfoContentTextCol:last-child {
+    width: 14vw;
+    margin: 0;
+}
+
+.basicInfoContentTextCol > p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.7rem;    
+    margin: 0 0;
+    color: #7580A0;
+}
+
+.basicInfoContentTextCol > h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;    
+    margin: 0 0;
+    color: #01081E;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    width: 18vw;
+    margin: 0 0 0 auto;
+    border-radius: 0.6rem;
+    background-color: #FFFFFF;
+}
+
+.socialMediaHead {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vh 1vw 0 1vw;
+}
+
+.socialMediaHead > h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.1rem;    
+    margin: 0;
+    color: #01081E;
+}
+
+.socialMediaHead > img {
+    height: 3vh;
+    width: auto;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+.socialMediaContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vh 1vw 0 1vw;   
+    height: 25vh;
+}
+
+.socialMediaIdWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    margin: auto 0;
+}
+
+.socialMediaIdWrapper > p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 0.7rem;    
+    margin: 0.5vh 0;
+    color: #7580A0;
+}
+
+.socialMediaIdWrapper > h1 {
+    background-color: transparent;
+    font-family: Poppins;
+    margin: 0;
+    font-weight: 400;
+    color: #01081E;
+    font-size: 0.8rem;
+}
+
+.containerRow2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0vh 0 0 0;
+    width: 61vw;
+}
+
+.billingAddress {
+    display: flex;
+    flex-direction: column;
+    min-height: 35vh;
+    width: 42vw;
+    margin: 0;
+    border-radius: 0.6rem;
+    background-color: #FFFFFF;
+}
+
+.billingAddressHead {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vh 1vw 0 1vw;
+}
+
+.billingAddressHead > h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.1rem;    
+    margin: 0;
+    color: #01081E;
+}
+
+.billingAddressHead > img {
+    height: 3vh;
+    width: auto;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+
+.billingAddressContent {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vh 2vw 1.5vh 1vw;   
+}
+
+.billingAddressContentTextRow {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 3vh 0;
+}
+.billingAddressContentTextRow:last-child {
+    margin: 0;
+}
+
+.billingAddressContentTextCol {
+    display: flex;
+    flex-direction: column;
+}
+.billingAddressContentTextCol:nth-child(1) {
+    width: 30vw;
+    margin: 0;
+}
+.billingAddressContentTextCol:nth-child(2){
+    width: 10vw;
+    margin: 0;
+}
+
+.billingAddressContentTextCol > p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 0.7rem;    
+    margin: 0 0;
+    color: #7580A0;
+}
+
+.billingAddressContentTextCol > h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;    
+    margin: 0 0;
+    color: #01081E;
+}
+
+
+.containerRow3 {
+    display: flex;
+    flex-direction: row;
+    width: 61vw;
+} 
+
+
+.saveBtn {
+    display: relative;
+    margin: auto;
+}
+.saveBtn .saveInnerDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 2vh 1vw 0 auto;
+    height: 6vh;
+    min-height: 45px;
+    min-width: 85px;
+    width: 7vw;
+    border-radius: 0.5rem;
+    background: #2433FF;
+    cursor: pointer;
+}
+
+.saveInnerDiv > p {
+    font-family: Poppins;
+    font-size: 0.8rem;
+    margin: auto auto auto auto;
+    color: #FFFFFF;
+}

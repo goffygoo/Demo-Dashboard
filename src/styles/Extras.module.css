@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    width: 65vw;
+    background-color: #E9F0F8;
+}
+
+.internalContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vw 0 2vw;
+}
+
+.internalContainer > h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;    
+    margin: 0 auto 0 0;
+    color: #36414D;
+}
+
+.card {
+    height: 35vh;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 3vh auto;
+}
+
+.card > h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    color: #151C31;
+    font-size: 1.4rem;
+    margin: 1vh auto 0 1vw;
+}
+
+.card > p {
+    font-family: Poppins;
+    font-weight: 400;
+    color: #7580A0;
+    font-size: 1rem;
+    margin: 1vh auto 0 2vw;
+}

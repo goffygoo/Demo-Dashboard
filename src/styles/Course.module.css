@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 65vw;
+    background-color: #E9F0F8;
+}
+
+.internalContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vw 0 2vw;
+}
+
+.internalContainer > h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;    
+    margin: 0 auto 0 0;
+    color: #36414D;
+}
